@@ -1,0 +1,28 @@
+.search_box_input {
+  outline: none;
+}
+
+.extra_small_screens_logo_img {
+  width: 6.5rem;
+  height: 100%;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+#login:hover,
+#signup:hover,
+#lang:hover{
+ background-color: rgba(233, 233, 233, 0.7);
+}
+
+@media screen and (max-width: 250px) {
+  #searchIcon {
+    display: none;
+  }
+  #logo .extra_small_screens_logo_img {
+    width: 4.5rem;
+  }
+}
+/*# sourceMappingURL=header.css.map */

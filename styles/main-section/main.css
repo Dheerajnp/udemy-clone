@@ -1,0 +1,56 @@
+.content_box_text_head {
+  max-width: 490px;
+}
+
+.content_box_text_para {
+  max-width: 490px;
+}
+
+#contentBox {
+  top: 15%;
+  left: 12%;
+}
+
+.prevBtn, .nextBtn {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1130px) {
+  #contentBox {
+    top: 4%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 973px) {
+  #contentBox .content_box_text_head {
+    font-size: 1.65rem;
+  }
+  #contentBox .content_box_text_para {
+    font-size: 1.2rem;
+  }
+}
+.top_category_row .card {
+  overflow: hidden;
+}
+
+.top_category_row img {
+  transition: transform 0.3s ease;
+}
+
+.top_category_row img:hover {
+  transform: scale(1.1);
+}
+.course-items img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.course-items img:hover{
+  transform: scale(1.05);
+  overflow: hidden;
+}
+#tabLinks span:hover{
+  opacity: 0.8;
+}
